@@ -1,3 +1,18 @@
-header {
+header, footer {
     background-color: antiquewhite;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header > ul.nav a {
+    color: black;
+}
+
+header > ul.nav a:hover {
+    text-decoration: underline;
+    color: chocolate;
 }
