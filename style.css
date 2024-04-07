@@ -8,11 +8,7 @@ footer {
     width: 100%;
 }
 
-header > ul.nav a {
-    color: black;
-}
-
-header > ul.nav a:hover {
+header .collapse a:hover {
     text-decoration: underline;
     color: chocolate;
 }
